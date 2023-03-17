@@ -29,4 +29,24 @@ public class CellPhone {
         }
         return 15;
     }
+
+
+    // showDateTIme : 잔여 요금
+    // showBill : 잔여 약정
+    // money : 요금
+    void record (boolean showDateTime, boolean showBill, int money) {
+        System.out.println("잔여 요금을 확인합니다.");
+        if (showDateTime) {
+            System.out.println("잔여 요금을 표시합니다.");
+        }
+        if (showBill) {
+            System.out.println("잔여 약정을 표시합니다.");
+        }
+        System.out.println("위약금은 " + money + "$만큼 청구되었습니다.");
+    }
+
+    void record() {
+            record(true, true, 5);
+
+    }
 }
