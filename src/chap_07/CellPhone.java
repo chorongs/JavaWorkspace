@@ -78,4 +78,41 @@ public class CellPhone {
     void refurPhone(String refurName) {
         this.cellphone += cellphone;
     }
+
+    // Better & Setter
+    String getCellphone() {
+        return getCellphone();
+    }
+    void setCellphone(String cellphone) {
+        this.cellphone = cellphone;
+    }
+
+    String getResolution () {
+        if (communication == null || communication.isEmpty()) {
+            return "통신사에 문의하세요.";
+        }
+        return communication;
+    }
+
+    void setResolution (String resolution) {
+        this.communication = resolution;
+    }
+    int getPrice() {
+        return price;
+    }
+    void setPrice(int price) {
+        if (price < 100000) {
+            this.price = 100000;
+        }
+        else {
+            this.price = price;
+        }
+    }
+
+    String getColor() {
+        return color;
+    }
+    void setColor (String color) {
+        this.color = color;
+    }
 }
