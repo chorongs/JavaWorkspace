@@ -2,7 +2,7 @@ package chap_07;
 
 public class _18_Enum {
     public static void main(String[] args) {
-        // 열거형 (Enum)
+        // 열거형 (Enum) : 어렵다.
         // 달력 : JAN, FEB, MAR, ...
         // 옷 사이즈 : S, M, L, XL
         // OS 종류 : WIN11, MACOS, LINUX, ...
