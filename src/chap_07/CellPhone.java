@@ -3,10 +3,30 @@ package chap_07;
 public class CellPhone {
     String cellphone; // 핸드폰 이름
     String color; // 색상
+    int serialNumber; // 시리얼 번호
+
+    static  int counter = 0; // 시리얼 번호 생성 역할
     String communication; // 통신사
     int price; // 가격
 
     static boolean canMobilePay = false; // 휴대폰 결제 가능 여부
+
+    CellPhone(){
+        System.out.println("기본 생성자 호출");
+        this.serialNumber = ++counter;
+        System.out.println("새로운 시리얼 넘버를 발급했습니다 : " + this.serialNumber);
+    }
+
+
+    CellPhone (String cellphone, String color, String communication, int price) {
+        this(); // 기본 생성자 호출
+
+        System.out.println("사용자 정의, 생성자 호출");
+        this.cellphone = cellphone;
+        this.color = color;
+        this.price = price;
+        this.communication = communication;
+    }
 
     void mobilePay() {
         if (canMobilePay) {
