@@ -26,5 +26,7 @@ public class _09_GetterSetter {
         System.out.println("가격 : " + p2.getPrice() + "원");
         System.out.println("오류 : " + p2.getResolution());
 
+        p1.price = 30000;
+
     }
 }
