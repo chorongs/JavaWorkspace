@@ -23,7 +23,7 @@ public class _01_Generics {
     private static <T> void printAnyArray(T[] array) {
         for (T t :
                 array) {
-            System.out.print(t + " "); // 1 2 3 4 5
+            System.out.print(t + " "); // 1 2 3 4 5 6
         }
         System.out.println();
     }
