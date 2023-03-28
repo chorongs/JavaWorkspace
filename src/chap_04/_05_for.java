@@ -36,6 +36,7 @@ public class _05_for {
             System.out.print(i);
         }
 
+
         System.out.println();
         // 홀수만 출력
         // 1, 3, 5, 7, 9
@@ -58,7 +59,6 @@ public class _05_for {
                 System.out.println("현재까지 총합은 " + sum + "입니다.");
             }
         System.out.println("1부터 10까지의 모든 수의 총합은 " + sum + "입니다.");
-
 
         }
     }
