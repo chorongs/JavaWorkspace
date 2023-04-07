@@ -39,7 +39,7 @@ public class _05_Synchronization {
                 }
 
                 if (i == 2) {
-                    throw new RuntimeException("못해먹겠다.");
+                    throw new RuntimeException("너무 힘들다.");
                 }
 
             }
