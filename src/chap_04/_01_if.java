@@ -9,7 +9,7 @@ public class _01_if {
         if (hour < 14)
             System.out.println("아이스 아메리카노 +1");
 
-        // if 문 내에서 2개 이상의 문장을 실행할 때는 { } 사용해야함
+        // if 문 내에서 2개 이상의 문장을 실행할 때는 { } 사용해야함 마지막에 굳이 else 하지 않아도 됨
         if (hour < 14) {
             System.out.println("아이스 아메리카노 +1");
             System.out.println("샷추가");
