@@ -20,7 +20,7 @@ public class _05_Synchronization {
                     }
 
                     if (i == 2) {
-                        throw new RuntimeException("못해먹었겠다.");
+                        throw new RuntimeException("못 해먹었겠다.");
                     }
                 }
                 System.out.println("--직원1 청소 끝 --");
