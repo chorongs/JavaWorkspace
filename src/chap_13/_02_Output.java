@@ -23,7 +23,28 @@ public class _02_Output {
         System.out.printf("%06.2f%n", Math.PI); // 003.14
         System.out.printf("%+6.2f%n", Math.PI); // _+3.14
 
+        System.out.println("------ 문자열 --------");
+        System.out.printf("%s%n", "Java"); // Java
+        System.out.printf("%6s%n", "Java"); // __Java (6자리 공간 확보하고 우측 정렬)
+        System.out.printf("%-6s%n", "Java"); // Java__ (6자리 공간 확보하고 좌측 정렬)
+        System.out.printf("%6.2s%n", "Java"); // ____Ja (6자리 공간 확보하고 우측 정렬해서 2글자 출력)
+        System.out.printf("%-6.2s%n", "Java"); // Ja____ (6자리공간 확보하고 좌측 정렬해서 2글자 출력)
 
+        System.out.println("--------응용 ---------");
+        System.out.println("이름 영어 수학 평균");
+        System.out.println("김명준 " + 90 + " " + 80 + " " + 85.0); // 김명준 90 80 85.0
+        System.out.println("김초롱 " + 100 + " " + 100 + " " + 100.0); // 김초롱 100 100 100
+        System.out.println("서금순 " + 95 + " " + 100 + " " + 97.5); // 서금순 95 100 97.5
 
+        System.out.println("-------- 응용2 ----------");
+        System.out.println("이름      영어   수학   평균"); // 공백 6, 3, 3 칸으로 구성
+        System.out.printf("%-6s %4d %4d %6.1f%n", "김명준", 90, 80, 85.0);
+        System.out.printf("%-6s %4d %4d %6.1f%n", "김초롱", 100, 100, 100.0);
+        System.out.printf("%-6s %4d %4d %6.1f%n", "서금순", 95, 100, 97.5);
+
+        System.out.println("------- 참고 -------");
+        System.out.println("ABCDEFG");
+        System.out.println("가나다라마바사");
+        System.out.println("가 나 다 라");
     }
 }
