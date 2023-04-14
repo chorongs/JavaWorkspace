@@ -19,3 +19,6 @@ public class _03_Lambda {
 //    s -> System.out.println(s)
 //    (x, y) -> x + y
 }
+
+
+// 람다식 복습
