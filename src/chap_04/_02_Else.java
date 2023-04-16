@@ -12,7 +12,7 @@ public class _02_Else {
         System.out.println("커피 주문 완료 #1");
 
 
-        // 오후 2시 이후이거나 모닝 커피를 마신 경우?
+        // 오후 2시 이후이거나 모닝 커피를 마신 경우??
         hour = 15;
         boolean morningCoffee = true;
         if (hour >= 14 || morningCoffee == true) {
