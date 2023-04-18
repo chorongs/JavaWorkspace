@@ -39,3 +39,4 @@ public class _04_FunctionalInterface {
         converter.convert(USD);
     }
 }
+// 인터페이스 체크
