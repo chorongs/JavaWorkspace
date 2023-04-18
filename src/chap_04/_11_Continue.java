@@ -54,3 +54,5 @@ public class _11_Continue {
         System.out.println("영업을 종료합니다.");
     }
 }
+
+// coutinue 왜 사용하는지 이론 다시 정리
