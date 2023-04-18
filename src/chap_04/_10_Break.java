@@ -32,3 +32,4 @@ public class _10_Break {
         System.out.println("금일 영업을 종료합니다.");
     }
 }
+// break문 연습
