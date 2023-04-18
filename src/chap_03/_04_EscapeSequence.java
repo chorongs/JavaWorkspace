@@ -18,6 +18,8 @@ public class _04_EscapeSequence {
         System.out.println("김치전\t8000원");
         System.out.println("부추전\t8000원");
 
+        // 줄바꿈 역슬래쉬
+
         System.out.println("C:\\Program Files\\Java");
 
         // \" : 큰따옴표
