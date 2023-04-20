@@ -27,3 +27,5 @@ public class _01_Class {
         CellPhone ktCellphone = new CellPhone();
     }
 }
+
+// 클래스
