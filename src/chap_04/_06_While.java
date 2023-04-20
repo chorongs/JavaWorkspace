@@ -22,3 +22,5 @@ public class _06_While {
         System.out.println("도착하였습니다.");
     }
 }
+
+// while문 예제 연습
