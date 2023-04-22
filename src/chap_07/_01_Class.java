@@ -6,6 +6,8 @@ public class _01_Class {
         // 유지보수 용이
         // 높은 재사용성
 
+
+        // 재사용성이 중요한 이유
         // 핸드폰
         // 모델명, 색상, 통신사, 가격
         String cellPhone = "아이폰13 PRO";
