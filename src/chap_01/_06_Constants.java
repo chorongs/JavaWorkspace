@@ -12,3 +12,4 @@ public class _06_Constants {
     }
 }
 // 소수점
+// float 공부
