@@ -13,3 +13,4 @@ public class _06_Constants {
 }
 // 소수점
 // float 공부
+// 왜 이걸 사용하는지
