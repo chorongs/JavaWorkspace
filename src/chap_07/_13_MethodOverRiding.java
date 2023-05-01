@@ -18,3 +18,4 @@ public class _13_MethodOverRiding {
     }
 }
 // 오버라이딩 왜 쓰는지
+// 사용법
