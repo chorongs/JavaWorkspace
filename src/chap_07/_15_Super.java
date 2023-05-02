@@ -14,3 +14,5 @@ public class _15_Super {
         speedCam.takePicture();
     }
 }
+
+// super란?
