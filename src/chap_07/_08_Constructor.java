@@ -18,3 +18,5 @@ public class _08_Constructor {
         System.out.println(p2.serialNumber);
     }
 }
+
+// 생성자
