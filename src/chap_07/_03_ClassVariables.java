@@ -26,3 +26,5 @@ public class _03_ClassVariables {
         System.out.println("휴대폰 결제 기능 : " + CellPhone.canMobilePay);
     }
 }
+
+// 클래스
