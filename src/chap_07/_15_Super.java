@@ -16,3 +16,4 @@ public class _15_Super {
 }
 
 // super란?
+// 그냥 한 번 더 듣자
