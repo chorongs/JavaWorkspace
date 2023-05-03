@@ -9,3 +9,5 @@ public class _07_This {
 
     }
 }
+
+// 언제쓰는지 왜 쓰는지
