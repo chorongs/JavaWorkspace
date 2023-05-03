@@ -58,3 +58,5 @@ enum Resolution {
         return width;
     }
 }
+
+// Enum이 뭐였지?
