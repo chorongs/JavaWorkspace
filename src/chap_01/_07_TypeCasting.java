@@ -5,7 +5,7 @@ public class _07_TypeCasting {
         // 형변환 TypeCasting
         // 정수형에서 실수형으로
         // 실수형에서 정수형으로
-
+        // 익히자
 
         // int to float, double
         int score = 93;
