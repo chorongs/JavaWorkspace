@@ -13,4 +13,3 @@ public class _02_DataTypes {
         System.out.println(123 + 456);
     }
 }
-// Sring
