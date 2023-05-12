@@ -11,5 +11,3 @@ public class _06_Constants {
 
     }
 }
-
-// ddd
