@@ -70,8 +70,7 @@ public class _04_SwitchCase {
                 break;
         }
         System.out.println(grade + "등급 제품의 가격 : " + price + "원");
-        // 1등급 제품의 가격 : 10000원
-        // 2등급 제품의 가격 : 9000원
+
 
 
     }
